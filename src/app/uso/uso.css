@@ -1,0 +1,134 @@
+header{
+    background: linear-gradient(to right, #aa00b9, #ff0099);
+    display: flex;
+    justify-content: center;   
+    align-items: center;      
+    height: 280px;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;       
+    gap: 20px;            
+}
+
+.header-content h1{
+    color: gainsboro;
+    font-size: 50px;
+    font-style: italic;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    background-color: #ffaefc;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    color: brown;
+}
+
+ul {
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: 85%;
+}
+
+li {
+    font-size: 22px;
+    font-style: italic;
+}
+
+ul ul li {
+    font-style: normal;
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.right-img {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    padding-right: 50px;
+}
+
+.right-img img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 0px
+}
+
+.volver-btn {
+  padding: 12px 22px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #aa00b9;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.volver-btn:hover {
+  background-color: #ff0099;
+  transform: scale(1.05);
+}
+
+.center {
+  display: flex;
+  justify-content: center; 
+  margin-top: 30px;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;      
+    padding: 48px;
+    height: 100%;   
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}

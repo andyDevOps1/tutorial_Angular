@@ -1,0 +1,111 @@
+<div class="page">
+    <header>
+        <div class="header-content" id="header-content">
+        <h1>Utilización de Angular</h1>
+        </div>
+    </header>
+    
+    <!--Main-->
+    <main>
+        <section>
+            <h2>En esta sección te explicaremos cómo empezar a utilizar Angular para desarrollar aplicaciones web.</h2>
+            <div class="content-section">
+                <div class="left-ul">
+                    <ul>
+                        <li>Cómo realizar una primera aproximación: "Hola Mundo".</li>
+                        <p>Una vez instalado el framework, debemos abrir nuestro editor
+                        de código (en mi caso VS Code), abrir la terminal y cambiar 
+                        con el comando cd al directorio en el que se desea crear el 
+                        proyecto de Angular. Después, debemos introducir el comando 
+                        ng new "Nombre_proyecto", en este caso el nombre del proyecto
+                        será “hola_mundo”. A continuación se plantearán las siguientes 
+                        preguntas que se deben contestar con Sí o No: Which stylesheet 
+                        format would you like to use?, Do you want to enable SSR and 
+                        Static Site Generation (SSG/Prerendering)?. Finalmente, se 
+                        crearán todos los componentes necesarios gracias al comando 
+                        anterior. Para ejecutar un “Hola Mundo”, simplemente abriremos 
+                        el fichero app.html, borraremos todo su contenido, y podemos 
+                        poner "Hola Mundo" dentro de una etiqueta h2.</p>
+
+                        <li>¿Cómo empezar a crear una aplicación base?</li>
+                        <p>Siguiendo el esquema del punto anterior, para empezar a crear
+                        una aplicación base, tendremos que elegir el directorio en el
+                        que crearemos el proyecto, ejecutaremos el comando ng new 
+                        "Nombre_proyecto" y después crearemos los componentes necesarios
+                        para nuestra aplicación web, como por ejemplo pueden ser las páginas 
+                        por las que navegaremos. Esto se hace con el comando ng generate 
+                        component "nombre_componente", donde “nombre_componente” puede ser 
+                        “inicio”, “seccion_perros”, “seccion_gatos”, etc. Con esto se generarán
+                        los ficheros .html, .css y .ts necesarios para maquetar y dinamizar nuestra 
+                        aplicación web.</p>
+
+                        <li>¿Cómo visualizar los resultados de la ejecución?</li>
+                        <p>Para visualizar los resultados de la ejecución de nuestro proyecto, podemos
+                        usar el comando ng serve, que nos mostrará en el navegador con la URL 
+                        http://localhost:"puerto" el resultado de nuestra aplicación web actualmente.</p>
+                        
+                        <li>¿El framework actúa sobre páginas, ficheros, secciones…?</li>
+                        <p>Este framework opera sobre componentes, que son, por así decir, bloques que 
+                        contienen una plantilla HTML para maquetado, una hoja de estilos CSS, una clase 
+                        TypeScript para la lógica de negocio que permite otorgar dinamicidad a la aplicación 
+                        web y un módulo que declara a cada componente y su configuración.</p>
+                        
+                        <li>¿Cómo se editan/modifican los ficheros que actúan en el framework?</li>
+                        <p>Los ficheros que actúan en el framework son:</p>
+                            <ul>
+                            <li>Ficheros .html: se editan para maquetar la aplicación web.</li>
+                            <li>Ficheros .css: se editan para dar estilo a la aplicación web.</li>
+                            <li>Ficheros .ts: se editan para dotar de lógica y dinamicidad a la aplicación web.</li>
+                            </ul>
+                        <p>Para modificarlos, simplemente accedemos a ellos desde el editor de código y podremos hacer 
+                        modificaciones cuyo resultado veremos en tiempo real en el navegador en la URL 
+                        http://localhost:"puerto" gracias al comando ng serve.</p>
+                        
+                        <li>¿Cómo se referencian los ficheros creados desde otras aplicaciones (si es el caso)?</li>
+                        <p>Dependiendo del tipo de recurso, se referencian mediante rutas o importaciones.</p>
+                                <ul>
+                                <li>Librerías y módulos: se instalan con el gestor de paquetes npm y luego se importan en los ficheros .ts usando import.</li>
+                                <li>API: se referencia mediante URL usando HttpClient.</li>
+                                <li>Componentes: se tratan como paquetes o librerías y se importan desde el proyecto Angular.</li>
+                                <li>Archivos: en el caso de PDFs, JSON o imágenes, se colocan en una carpeta y luego se referencian con su URL.</li>
+                                </ul>
+                    </ul>
+                </div>
+                <div class="right-img">
+                    <img src="ng_new_holamundo.png" alt="ng new hola_mundo" width="300">
+                    <img src="h2_holamundo.png" alt="ng serve" width="300">
+                    <img src="create_component.png" alt="ng generate component inicio" width="300">
+                    <img src="serve.png" alt="ng serve" width="300">
+                    <img src="serve_holamundo.png" alt="ng serve hola_mundo" width="300">
+                </div>
+            </div>
+            <h3>Conclusiones del tutorial sobre el alcance de este y los objetivos conseguidos al finalizarlo.</h3>
+            <p>En este tutorial se han proporcionado las nociones básicas para comenzar
+               a usar el framework de front-end Angular, permitiendo comprender así su 
+               utilidad, sus aplicaciones prácticas, requisitos previos, pasos para su 
+               instalación y el comienzo del desarrollo de una aplicación web.</p>
+            
+            <p>Por otro lado, se han detallado los prerrequisitos y las herramientas 
+               necesarias, la generación de componentes, la estructura de los ficheros 
+               .html, .css, .ts y .json del framework.</p>
+            
+            <p>También se analizó la simplicidad en la que se pueden visualizar los 
+               resultados de la ejecución del proyecto de Angular con sus cambios y 
+               modificaciones en vivo mediante la herramienta ng serve, que actualiza 
+               constantemente la vista del proyecto.</p>
+            
+            <p>En conclusión, este breve tutorial, ofrece una aproximación a la teoría
+               y la práctica de la utilización del framework Angular para que el usuario 
+               pueda comenzar a trabajar con él teniendo las bases necesarias para construir 
+               aplicaciones, generar los componentes necesarios y usar funcionalidades como 
+               el enrutamiento para “conectar” páginas.</p>
+        </section>
+        <div class="center">
+            <button class="volver-btn" routerLink="/">Volver al inicio</button>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        © 2025 Tutorial de Angular. Todos los derechos reservados.
+    </footer>
+</div>

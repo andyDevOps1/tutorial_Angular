@@ -1,0 +1,132 @@
+header{
+    background: linear-gradient(to right, #aa00b9, #ff0099);
+    display: flex;
+    justify-content: center;   
+    align-items: center;      
+    height: 280px;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;       
+    gap: 20px;            
+}
+
+.header-content h1{
+    color: gainsboro;
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    background-color: #ffaefc;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(58, 33, 82);
+    border-radius: 32px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;          
+}
+
+#card-1 img {
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 20px;
+
+}
+
+#card-2 img {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 20px;
+
+}
+
+#card-3 img {
+    width: 75%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 20px;
+
+}
+
+.card h2 {
+    color: rgb(191, 186, 186);
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+
+.card-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 120px;
+    padding-bottom: -30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulo-video {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #000;
+}
+
+.video-tutorial {
+    display: flex;
+    justify-content: center;
+}
+
+.video-tutorial iframe {
+    border-radius: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;      
+    padding: 47.8px;
+    height: 100%;   
+    position: relative; 
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+
+
